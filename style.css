@@ -1,7 +1,7 @@
 body{
     font-family: 'Chivo', sans-serif;
-font-family: 'Allerta Stencil', sans-serif;
-background-image: url("brickwall1.png");
+    font-family: 'Allerta Stencil', sans-serif;
+    background-image: url("brickwall1.png");
 }
 
 .navbar{
@@ -9,16 +9,6 @@ background-image: url("brickwall1.png");
     background-color: rgb(247, 247, 247);
     color: white;
           
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(245, 245, 245, 0.795);
-    color: rgb(77, 76, 76);
-    text-align: center;
 }
 
 #main{
@@ -33,14 +23,21 @@ background-image: url("brickwall1.png");
     font-size: 17px;
 }
 
-
-#ftext{
-    padding-top: 1%;
-}
-
-
 #mainbtn{
     -webkit-filter: drop-shadow(4px 4px 4px rgb(48, 48, 48));
     filter: drop-shadow(4px 4px 4px rgb(48, 48, 48));
 }
 
+#ftext{
+    padding-top: 1%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    color: rgb(77, 76, 76);
+    text-align: center;
+}
