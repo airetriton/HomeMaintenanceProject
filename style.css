@@ -1,0 +1,36 @@
+body{
+    font-family: 'Chivo', sans-serif;
+font-family: 'Allerta Stencil', sans-serif;
+background-image: url("brickwall1.png");
+}
+
+.navbar{
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    color: white;
+          
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(218, 218, 218, 0.671);
+    color: rgb(77, 76, 76);
+    text-align: center;
+}
+
+#main{
+    padding-top: 1%;
+}
+
+#caro{
+    width: 100%;
+    height: 275px;
+    background-color: darkblue;
+}
+
+#desc{
+    font-size: 17px;
+}
