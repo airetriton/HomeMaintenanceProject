@@ -28,8 +28,7 @@ body{
     filter: drop-shadow(4px 4px 4px rgb(48, 48, 48));
 }
 
-#mainbtn:hover
-{
+#mainbtn:hover{
 	opacity: 0.75;
 	filter: alpha(opacity=30);
 }
@@ -44,6 +43,6 @@ body{
     bottom: 0;
     width: 100%;
     background-color: rgb(247, 247, 247);
-    color: rgb(77, 76, 76);
+    color: rgb(87, 86, 86);
     text-align: center;
 }
