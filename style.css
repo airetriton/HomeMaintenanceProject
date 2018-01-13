@@ -16,7 +16,7 @@ background-image: url("brickwall1.png");
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(218, 218, 218, 0.671);
+    background-color: rgba(218, 218, 218, 0.795);
     color: rgb(77, 76, 76);
     text-align: center;
 }
@@ -33,4 +33,9 @@ background-image: url("brickwall1.png");
 
 #desc{
     font-size: 17px;
+}
+
+#mainbtn{
+    -webkit-filter: drop-shadow(4px 4px 4px rgb(48, 48, 48));
+  filter: drop-shadow(4px 4px 4px rgb(48, 48, 48);
 }
