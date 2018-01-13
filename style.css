@@ -16,26 +16,31 @@ background-image: url("brickwall1.png");
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(218, 218, 218, 0.795);
+    background-color: rgba(245, 245, 245, 0.795);
     color: rgb(77, 76, 76);
     text-align: center;
 }
 
 #main{
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 #caro{
     width: 100%;
-    height: 300px;
-    background-color: darkblue;
 }
 
 #desc{
     font-size: 17px;
 }
 
+
+#ftext{
+    padding-top: 1%;
+}
+
+
 #mainbtn{
     -webkit-filter: drop-shadow(4px 4px 4px rgb(48, 48, 48));
-    filter: drop-shadow(4px 4px 4px rgb(48, 48, 48);
+    filter: drop-shadow(4px 4px 4px rgb(48, 48, 48));
 }
+
