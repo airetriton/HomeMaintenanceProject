@@ -28,6 +28,12 @@ body{
     filter: drop-shadow(4px 4px 4px rgb(48, 48, 48));
 }
 
+#mainbtn:hover
+{
+	opacity: 0.75;
+	filter: alpha(opacity=30);
+}
+
 #ftext{
     padding-top: 1%;
 }
