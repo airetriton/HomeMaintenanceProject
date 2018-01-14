@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS up_keep;
+CREATE DATABASE up_keep;
