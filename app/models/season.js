@@ -6,12 +6,12 @@ module.exports = function(sequelize, DataTypes) {
   
     Season.associate = function(models) {
       // Associating Season with Tasks
-      // When an Season is deleted, also delete any associated Tasks
       Season.hasMany(models.Task, {
-        onDelete: "cascade"
+        foreignKey: {
+          allowNull: false
+        }
       });
     };
   
     return Season;
   };
-  
