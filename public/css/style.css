@@ -1,7 +1,7 @@
 body{
     font-family: 'Chivo', sans-serif;
     font-family: 'Allerta Stencil', sans-serif;
-    background-image: url("brickwall1.png");
+    background-image: url("../img/brickwall1.png");
 }
 
 .navbar{
