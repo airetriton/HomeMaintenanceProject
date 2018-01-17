@@ -4,6 +4,10 @@ body{
     background-image: url("../img/backgrounds/brickwall1.png");
 }
 
+
+#bg2{
+    opacity: .5;
+}
 .navbar{
     margin: 0;
     background-color: rgb(247, 247, 247);
@@ -22,7 +26,10 @@ body{
     box-shadow: 2px 2px 4px 1px #fff;
 }
 
-
+#maintextarea{
+    list-style: none;
+    font-size: 18px;
+}
 
 #desc{
     font-size: 17px;
@@ -51,6 +58,11 @@ body{
     background-color: rgb(247, 247, 247);
     color: rgb(87, 86, 86);
     text-align: center;
+}
+
+.drophead{
+    font-size: 18px;
+    color: rgb(53, 53, 53);
 }
 
 
