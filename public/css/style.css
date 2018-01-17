@@ -36,8 +36,6 @@ body{
 	filter: alpha(opacity=30);
 }
 
-
-
 #ftext{
     padding-top: 1%;
 }
@@ -52,9 +50,28 @@ body{
     text-align: center;
 }
 
+
+
 @media only screen and (max-width: 768px) {
-	#navbar {
-		height: 60px;
-		width: auto;
-		margin-bottom: 10%;
-	}
+	.navbar-default {
+display: none;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        #mainbtn{
+            height: 35%;
+            width: 35%;
+        }
+    }
+
+    @media only screen and (max-width: 768px){
+        #upkeep{
+            display: show;
+        }
+    }
+
+    @media only scrren and (max-width: 768px){
+        .caro{
+            display: none;
+        }
+    }
