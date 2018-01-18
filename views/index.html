@@ -78,9 +78,18 @@
     <div class="container" id="main">
         <div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-                    
-                        <a href="prevent.html">
 
+
+                        <script> function EvalSound(soundobj) 
+                            {var thissound=document.getElementById(soundobj); thissound.play()}; 
+                        </script>
+
+                    <audio id="audio1">
+                        <source src="../public/sounds/check.wav" type="audio/wav">  
+                    </audio>
+
+                    <a href="#" onClick="EvalSound('audio1'); setTimeout( function() { window.location.href = 'preventative.html'}, 300);">
+                    
                             <img class="click" id="mainbtn" src="../public/img/icons/check.png"/></a>
 
                     <h3><strong>Preventative</strong></h3>
@@ -90,7 +99,14 @@
 
         <div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-                    <img class="click" id="mainbtn" src="../public/img/icons/tools.png">
+                        <audio id="audio2">
+                                <source src="../public/sounds/click.wav" type="audio/wav">
+                              </audio>
+                            <a href="#" onClick="EvalSound('audio2'); setTimeout( function() { window.location.href = 'howto.html'}, 300);">
+                            
+                    
+        
+                                    <img class="click" id="mainbtn" src="../public/img/icons/check.png"/></a>
                     <h3><strong>How Do I?</strong></h3>
                     <p id="desc">Do it yourself home repair directory</p>
                 </div>
@@ -98,7 +114,12 @@
 
         <div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-                    <img class="click" id="mainbtn" src="../public/img/icons/location.png">
+                        <audio id="audio3">
+                                <source src="../public/sounds/click2.wav" type="audio/wav">
+                              </audio>
+                            <a href="#" onClick="EvalSound('audio3'); setTimeout( function() { window.location.href = 'findhelp.html'}, 300);">
+
+                    <img class="click" id="mainbtn" src="../public/img/icons/location.png"></a>
                     <h3><strong>Professional Help</strong></h3>
                     <pid="desc">Consult a Professional to troubleshoot or repair issues</p>
                 </div>
