@@ -46,6 +46,10 @@ body{
     filter: drop-shadow(8px 8px 8px rgb(0, 9, 59));
 }
 
+input[type=checkbox].exampleB {
+    transform: scale(1.75);
+  }
+
 #ftext{
     padding-top: 1%;
 }
